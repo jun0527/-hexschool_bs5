@@ -13616,11 +13616,10 @@ img {
 .community .icon {
   width: 30px;
   height: 30px;
-  background: #858377;
   border-radius: 50%;
   line-height: 30px;
-  text-align: center;
   color: #fff;
+  padding: 0;
 }
 
 .sideBar .title {
