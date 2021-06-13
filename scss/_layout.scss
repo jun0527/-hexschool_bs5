@@ -1,0 +1,184 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.header .title{
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(../image/logo.jpg);
+  background-size: cover;
+  width: 111px;
+  height: 40px;
+}
+.btn-primary{
+  color: #636057;
+  font-weight: bold;
+}
+.btn-primary:hover{
+  background: #FF785E;
+  color: #fff;
+  border: 1px solid #FF785E;
+}
+.btn-outline-gray{
+  color: #858377;
+  border-width: 2px;
+  font-weight: bold;
+}
+.btn-outline-gray:hover{
+  background: #FFDF65;
+  border-color: #FFDF65;
+  color: #858377;
+}
+.btn-outline-gray:hover i{
+  color: #FF785E;
+}
+//modal
+.sigInModal .modal-body{
+  border-top: 1px solid #DEE2E6;
+  padding: 24px 16px 32px 16px;
+}
+.sigInModal .line{
+  height: 1px;
+  background: #E8E8DB;
+}
+//main
+.introduction{
+  background: #F8F9FA;
+}
+.introduction .title{
+  letter-spacing: 3px;
+}
+.introduction .picture{
+  border-radius: 6%;
+}
+.progress{
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.progress-bar{
+  width: 41%;
+  font-weight: bold;
+}
+.hiddenText{
+  margin-right: 20px;
+}
+.introduction .btn{
+  border-radius: 26px;
+}
+.bookmark{
+  border-bottom: 1px solid #E8E8DB;
+}
+.bookmark button{
+  background: none;
+  border: none;
+}
+.bookmark li{
+  border-bottom: 2px solid #fff;
+}
+.bookmark .nav-link:hover{
+  font-weight: bold;
+}
+.bookmark .nav-item:hover{
+  border-bottom: 2px solid #FFDF65;
+}
+.bookmark .active{
+  border-bottom: 2px solid #FFDF65;
+}
+@media(max-width: 992px){
+  .bookmark button{
+    font-size: 14px;
+  }
+}
+//sponsor
+.sponsor img{
+  margin: 0 auto;
+}
+.sponsor .line{
+  height: 3px;
+  background: #FFDF65;
+}
+.form-select,.form-control{
+  background: #F7F7F7;
+}
+.select{
+  background: #F7F7F7;
+  color: #999999;
+}
+.sponsorForm .submit{
+  border-radius: 26px;
+}
+@media(max-width: 992px){
+  .sponsorForm .submit{
+    width: 100%;
+  }
+}
+//side bar
+.proposer{
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
+}
+@media(max-width: 992px){
+  .proposer img{
+    width: 70px;
+    height: 70px;
+  }
+  .proposer h3{
+    font-size: 18px;
+  }
+  .proposer p{
+    font-size: 14px;
+  }
+}
+.proposer .proposerMessage{
+  color: #373A3C;
+  letter-spacing: 0.7px;
+  text-align: justify;
+}
+.community .icon{
+  width: 30px;
+  height: 30px;
+  background: #858377;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+.sideBar .title{
+  background: #F8F9FA;
+  border-radius: 8px;
+  border-left: 6px solid #FFDF65;
+  border-right: 6px solid #FFDF65;
+}
+.sideBar .title h3{
+  line-height: 40px;
+  text-align: center;
+}
+.programCard{
+  border-radius: 8px;
+}
+.programCard img{
+  border-radius: 8px 8px 0 0;
+}
+.discount{
+  border-bottom: 1px solid #E8E8DB;;
+}
+.programCard .card-title{
+  letter-spacing: 2px;
+}
+.programCard .card-text{
+  letter-spacing: 0.7px;
+  text-align: justify;
+}
+.footer{
+  background: #494846;
+}
+@media(max-width: 992px){
+  .footer p{
+    font-size: 14px;
+  }
+}

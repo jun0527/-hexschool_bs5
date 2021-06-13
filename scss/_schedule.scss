@@ -1,0 +1,22 @@
+.schedule .picture{
+  width: 220px;
+  height: 168px;
+}
+.schedule img{
+  max-width: 220px;
+}
+@media(max-width: 992px){
+  .schedule .picture{
+    width: 135px;
+    height: 132px;
+    overflow: hidden;
+  }
+  .schedule .picture img{
+    max-width: 173px;
+  }
+}
+.schedule .summary{
+  letter-spacing: 0.6px;
+  text-align: justify;
+  line-height: 20px;
+}
