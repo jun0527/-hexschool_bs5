@@ -13488,8 +13488,41 @@ img {
   font-weight: bold;
 }
 
-.hiddenText {
-  margin-right: 20px;
+.sign {
+  position: relative;
+}
+
+.signText {
+  display: none;
+  position: absolute;
+  top: -30px;
+}
+
+.signText i {
+  color: #494846;
+  font-size: 24px;
+}
+
+.signText span {
+  position: absolute;
+  color: #FFDF65;
+  font-size: 14px;
+  background: #494846;
+  left: -30px;
+  padding: 0 8px 0 8px;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+.sign:hover .signText {
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .sign:hover .signText {
+    display: none;
+  }
 }
 
 .introduction .btn {
@@ -13538,6 +13571,7 @@ img {
 
 .form-select, .form-control {
   background: #F7F7F7;
+  border: none;
 }
 
 .select {
